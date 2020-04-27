@@ -1,12 +1,12 @@
 <html>
 
 <head>
-<title>This is a DO280 test</title>
+<title>RHCA</title>
 </head>
 
 <body>
 
-<?php echo "Hello World!"; ?>
+<?php echo "This is a DO280 test"; ?>
 <?php if($_ENV["HOSTNAME"]) {?><h3>My hostname is <?php echo $_ENV["HOSTNAME"]; ?><br /><br />
 
 <?php $links = [];
